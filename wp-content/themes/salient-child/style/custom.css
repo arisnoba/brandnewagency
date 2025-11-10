@@ -1,8 +1,46 @@
+body,
+html,
+p,
+span,
+a,
+li,
+input,
+textarea,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', /* 영어 */ 'Pretendard', /* 한글 */ -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif !important;
+}
+body {
+  word-break: keep-all;
+}
+.pretendard {
+  font-family: 'Pretendard', sans-serif !important;
+}
+.poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
 .brandnew-post-work .nectar-post-grid-filters a {
   color: #fff;
   opacity: 0.5;
+  font-weight: 600;
 }
 .brandnew-post-work .nectar-post-grid-filters a:hover,
 .brandnew-post-work .nectar-post-grid-filters a.active {
   opacity: 1;
+}
+body #slide-out-widget-area .inner-wrap > .inner .off-canvas-menu-container li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #slide-out-widget-area .inner-wrap > .inner .off-canvas-menu-container li:last-child a {
+  width: fit-content;
+  background-color: #c4ff23;
+  color: #000;
+  border-radius: 50px;
 }
