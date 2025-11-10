@@ -21,6 +21,12 @@ body {
 .pretendard {
   font-family: 'Pretendard', sans-serif !important;
 }
+.pretendard * {
+  font-family: 'Pretendard', sans-serif !important;
+}
+.portfolio-title * {
+  font-family: 'Pretendard', sans-serif !important;
+}
 .poppins {
   font-family: 'Poppins', sans-serif !important;
 }
@@ -43,4 +49,73 @@ body #slide-out-widget-area .inner-wrap > .inner .off-canvas-menu-container li:l
   background-color: #c4ff23;
   color: #000;
   border-radius: 50px;
+}
+.testimonial_slider[data-style='minimal'] {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.testimonial_slider[data-style='minimal'] .slides {
+  margin: 0 auto;
+  max-width: 100%;
+}
+.testimonial_slider[data-style='minimal'] .slides blockquote {
+  text-align: left;
+  padding: 0;
+}
+.testimonial_slider[data-style='minimal'] .slides blockquote span:not(.title) {
+  transform: none;
+}
+.testimonial_slider[data-style='minimal'] .slides .testimonial-name {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  transform: none;
+}
+.testimonial_slider[data-style='minimal'] .slides .title {
+  text-align: right;
+  font-style: normal;
+  font-size: 16px;
+}
+.testimonial_slider[data-style='minimal'] .controls {
+  bottom: 0 !important;
+}
+.testimonial_slider[data-style='minimal'] .testimonial-next-prev .prev {
+  top: auto;
+  bottom: 0;
+  left: 20px;
+}
+.testimonial_slider[data-style='minimal'] .testimonial-next-prev .next {
+  top: auto;
+  bottom: 0;
+  right: 20px;
+}
+@media only screen and (max-width: 690px) {
+  .full-width-content .testimonial_slider[data-style='minimal'] .controls {
+    bottom: 0 !important;
+  }
+}
+.mapContainer {
+  margin-bottom: 0px !important;
+}
+@media screen and (max-width: 690px) {
+  .mapContainer {
+    aspect-ratio: 16/9;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mapContainer {
+    aspect-ratio: 4/3;
+  }
+}
+.brandnew-post-work .nectar-post-grid .content {
+  padding: 20px !important;
+}
+.brandnew-post-work .nectar-post-grid .meta-category a {
+  font-size: 14px;
+}
+#ajax-content-wrap .nectar-post-grid .meta-category .style-button,
+body .nectar-post-grid .meta-category .style-button {
+  font-size: 14px;
 }
