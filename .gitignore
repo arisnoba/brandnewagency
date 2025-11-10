@@ -1,0 +1,73 @@
+# SFTP 설정 파일 (민감한 정보 포함)
+.vscode/sftp.json
+
+# WordPress
+wp-config.php
+wp-config-local.php
+.htaccess
+
+# 업로드된 미디어 파일
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# 캐시 파일
+wp-content/cache/*
+!wp-content/cache/.gitkeep
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# 로그 파일
+*.log
+error_log
+debug.log
+
+# 플러그인 (선택적으로 제외)
+# wp-content/plugins/*
+
+# 테마 빌드 파일 (필요시)
+# wp-content/themes/*/node_modules/
+# wp-content/themes/*/dist/
+# wp-content/themes/*/build/
+
+# OS 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# 에디터 파일
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 패키지 관리자
+node_modules/
+package-lock.json
+yarn.lock
+composer.lock
+vendor/
+
+# 기타
+*.zip
+*.tar.gz
+*.rar
+
